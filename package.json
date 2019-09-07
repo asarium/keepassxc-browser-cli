@@ -1,6 +1,6 @@
 {
   "name": "keepassxc-browser-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI application for talking to KeePassXC via the KeePassXC-Browser protocol.",
   "prepublish": "tsc",
   "keywords": [
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "commander": "latest",
-    "native-messaging-connector": "^1.0.0",
+    "native-messaging-connector": "^1.0.1",
     "tweetnacl": "latest",
     "tweetnacl-util": "latest"
   }
