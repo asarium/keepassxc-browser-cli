@@ -1,13 +1,13 @@
 {
   "name": "keepassxc-browser-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI application for talking to KeePassXC via the KeePassXC-Browser protocol.",
   "prepublish": "tsc",
   "keywords": [
     "KeePassXC"
   ],
   "bin": {
-    "keepassxc-cli": "dist/main.js"
+    "keepassxc-browser-cli": "dist/main.js"
   },
   "repository": "https://github.com/asarium/keepassxc-browser-cli",
   "author": "asarium",
