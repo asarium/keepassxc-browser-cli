@@ -1,6 +1,6 @@
 {
   "name": "keepassxc-browser-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI application for talking to KeePassXC via the KeePassXC-Browser protocol.",
   "prepublish": "tsc",
   "keywords": [
@@ -14,7 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^12.7.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "source-map-support": "^0.5.16"
   },
   "dependencies": {
     "commander": "latest",

@@ -338,7 +338,7 @@ export class KeepassXCConnection {
             keys: [
                 {
                     id: this._association.id,
-                    key: this._association.id,
+                    key: this._association.idKey,
                 }
             ]
         });
